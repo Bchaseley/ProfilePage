@@ -1,0 +1,141 @@
+* {
+    /* border: 1px solid red; */
+    font-family: cursive;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.header, .header div {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.button {
+    background-color: rgb(29, 216, 216);
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+li {
+    margin-left: 15px;
+}
+
+.profile {
+    outline: 2px solid black;
+    width: 450px;
+    height: 350px;
+    margin: 50px;
+    font-family: "Roboto";
+}
+
+.profileheader {
+    background-color: rgb(18, 168, 168);
+    height:75px;
+}
+
+.seattle {
+    display: flex;
+    align-items: center;
+}
+
+.profilecontent {
+    padding: 20px;
+}
+
+#profilepic {
+    height: 75px;
+    top: 175px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    position: absolute;
+}
+#marker {
+    height: 20px;
+    width: 15px;
+    margin-right: 10px;
+    
+}
+
+#gear {
+    width: 15px;
+}
+
+.education, .connection, .your {
+    border: 2px solid black;
+    margin: 50px;
+    
+}
+
+.educationheader {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+
+.educationcontent {
+    padding: 0px 20px;
+}
+
+.connectioncontent {
+    padding: 20px 20px;
+}
+
+.connectioncontent div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.connectionheader, .yourhead {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 0px 20px;
+}
+
+.connum, .yournum {
+    color: black;
+    background-color: rgb(194, 194, 194);
+    border-radius: 50%;
+}
+
+.connectioncontent img, .yourcontent img {
+    width: 60px;
+    margin: 5px 10px;
+    border: 3px solid black
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.yourcontent {
+    display: inline-block;
+}
+
+.conn {
+    display: flex;
+}
